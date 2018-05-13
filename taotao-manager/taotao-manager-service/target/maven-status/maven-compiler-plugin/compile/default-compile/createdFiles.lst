@@ -1,0 +1,8 @@
+com\taotao\service\impl\TbItemParamServiceImpl.class
+com\taotao\service\TbItemParamService.class
+com\taotao\service\ItemCatList.class
+com\taotao\service\uploadFile.class
+com\taotao\service\impl\UploadFileImpl.class
+com\taotao\service\impl\ItemCatListImpl.class
+com\taotao\service\impl\ItemsImpl.class
+com\taotao\service\items.class

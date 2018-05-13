@@ -10,7 +10,7 @@
   <properties>
   	<webVersion>3.0</webVersion>
   </properties>
-  <build/>
+  
   <dependencies>
    <dependency>
    <groupId>com.taotao</groupId>
@@ -40,5 +40,23 @@
 				<artifactId>commons-fileupload</artifactId>
 				
 			</dependency>
+			<dependency>
+    <groupId>net.oschina.zcx7878</groupId>
+    <artifactId>fastdfs-client-java</artifactId>
+    <version>1.27.0.0</version>
+    </dependency>
   </dependencies>
+  <build>
+<!-- 配置插件 -->
+<plugins>
+<plugin>
+<groupId>org.apache.tomcat.maven</groupId>
+<artifactId>tomcat7-maven-plugin</artifactId>
+<configuration>
+<port>8080</port>
+<path>/</path>
+</configuration>
+</plugin>
+</plugins>
+</build>
 </project>
